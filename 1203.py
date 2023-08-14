@@ -1,0 +1,8 @@
+a=input()
+a=int(a)
+if a<=10:
+    print('정상')
+elif a<=20:
+    print('과체중')
+else:
+    print('비만')

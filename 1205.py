@@ -1,0 +1,13 @@
+a,b=input().split()
+a=float(a)
+b=float(b)
+q=a+b
+w=a-b
+e=b-a
+r=a*b
+t=a/b
+y=b/a
+u=a**b
+i=b**a
+o=max(q,w,e,r,t,y,u,i)
+print('%.6f'%o)
